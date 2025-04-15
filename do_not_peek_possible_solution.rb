@@ -65,3 +65,5 @@ qrcode = RQRCode::QRCode.new(text_to_encode)
 png = qrcode.as_png({ :size => 500 })
 
 IO.binwrite("#{filename}.png", png.to_s)
+
+
